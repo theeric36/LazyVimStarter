@@ -35,7 +35,12 @@ return {
                 "-Aclippy::return_self_not_must_use",
               },
             },
-            imports = { granularity = { group = "item" } },
+            -- imports = {
+            --   granularity = {
+            --     group = "item",
+            --     enforce = true,
+            --   },
+            -- },
           },
         },
       },
