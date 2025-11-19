@@ -16,6 +16,7 @@ return {
                   },
                 })
               end,
+              has = "codeAction",
               desc = "Organize Imports",
             },
           },
