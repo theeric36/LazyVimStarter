@@ -14,7 +14,7 @@ return {
   -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
   lazy = false,
   keys = {
-    { "<leader>-", "<cmd>Oil --float<cr>", desc = "Open parent directory" },
+    { "<leader>-", "<cmd>Oil --float .<cr>", desc = "Open parent directory" },
   },
   use_default_keymaps = false,
 }
